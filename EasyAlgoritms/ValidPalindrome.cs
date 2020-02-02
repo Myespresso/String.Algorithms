@@ -1,6 +1,6 @@
 ﻿/*
  * Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
- * a plindrome string is a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam or nurses run.
+ * a plindrome string is a word, phrase, or sequence that reads the same backwards as forwards, e.g. A man, a plan, a canal: Panama
  * Note: For the purpose of this problem, we define empty string as valid palindrome.
  
  *  Example 1:
@@ -33,7 +33,7 @@ namespace EasyAlgoritms
             int sLen = input.Length;
             int left = 0;
             int right = sLen - 1;
-            for (int i = 0; left < sLen && right > -1; i++)
+            while (left < sLen && right > -1)
             {
                 while (left < sLen && !char.IsDigit(input[left]) && !char.IsLetter(input[left]))
                 {
