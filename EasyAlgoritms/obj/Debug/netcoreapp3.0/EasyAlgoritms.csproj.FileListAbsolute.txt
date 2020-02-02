@@ -1,0 +1,11 @@
+D:\myEspressoGitHub\String.Algorithms\EasyAlgoritms\bin\Debug\netcoreapp3.0\EasyAlgoritms.exe
+D:\myEspressoGitHub\String.Algorithms\EasyAlgoritms\bin\Debug\netcoreapp3.0\EasyAlgoritms.deps.json
+D:\myEspressoGitHub\String.Algorithms\EasyAlgoritms\bin\Debug\netcoreapp3.0\EasyAlgoritms.runtimeconfig.json
+D:\myEspressoGitHub\String.Algorithms\EasyAlgoritms\bin\Debug\netcoreapp3.0\EasyAlgoritms.runtimeconfig.dev.json
+D:\myEspressoGitHub\String.Algorithms\EasyAlgoritms\bin\Debug\netcoreapp3.0\EasyAlgoritms.dll
+D:\myEspressoGitHub\String.Algorithms\EasyAlgoritms\bin\Debug\netcoreapp3.0\EasyAlgoritms.pdb
+D:\myEspressoGitHub\String.Algorithms\EasyAlgoritms\obj\Debug\netcoreapp3.0\EasyAlgoritms.csprojAssemblyReference.cache
+D:\myEspressoGitHub\String.Algorithms\EasyAlgoritms\obj\Debug\netcoreapp3.0\EasyAlgoritms.AssemblyInfoInputs.cache
+D:\myEspressoGitHub\String.Algorithms\EasyAlgoritms\obj\Debug\netcoreapp3.0\EasyAlgoritms.AssemblyInfo.cs
+D:\myEspressoGitHub\String.Algorithms\EasyAlgoritms\obj\Debug\netcoreapp3.0\EasyAlgoritms.dll
+D:\myEspressoGitHub\String.Algorithms\EasyAlgoritms\obj\Debug\netcoreapp3.0\EasyAlgoritms.pdb
