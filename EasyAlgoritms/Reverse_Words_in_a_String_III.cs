@@ -12,43 +12,27 @@
  *      Space Complexity: O(n)
 */
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace EasyAlgoritms
 {
     public static class Reverse_Words_in_a_String_III
     {
-        public static string Run(string input)
         {
-            if (string.IsNullOrWhiteSpace(input))
+            string reversedWord = "";
+            string output = "";
+            const char WHITE_SPACE = ' ';
+
+            foreach (char character in input)
             {
-                return input;
-            }
-            Stack<char> stack = new Stack<char>();
-            StringBuilder strb = new StringBuilder(input.Length);
-            const char White_SPACE = ' ';
-            for (int i = 0; i < input.Length; i++)
-            {
-                if (input[i] != White_SPACE)
+                if (character == WHITE_SPACE)
                 {
-                    stack.Push(input[i]);
+                    output += reversedWord + " ";
+                    reversedWord = string.Empty;
                 }
                 else
-                {
-                    while (stack.Count > 0)
-                    {
-                        strb.Append(stack.Pop());
-                    }
-                    strb.Append(White_SPACE);
-                }
+                    reversedWord = character + reversedWord;
             }
-            while (stack.Count > 0)
-            {
-                strb.Append(stack.Pop());
-            }
-            return strb.ToString();
+            return output.Insert(output.Length, reversedWord);
         }
-
     }
 }
